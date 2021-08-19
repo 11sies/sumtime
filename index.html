@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>sumtime</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Muli">
+
+<h1>sumtime</h1>
+<main>
+  <div class="words">Have you ever found yourself staring at a list of timestamps and wanting to know the total time? Now you can find out.</div>
+  <div class="words">Just highlight everything and paste it below. It's fine if there's other stuff in there too; everything that's not a timestamp is ignored (even other numbers).</div>
+  <textarea class="userinput" name="" rows="12" cols="80" value="userinput"></textarea>
+  <div class="spacer"></div>
+  <div class="sidebyside">
+    <button type="button" onclick="go()">submit</button>
+    <div class="output">
+      <div>total time: <span class="total highlight"></span></div>
+      <div>for <span class="numStamps highlight"></span> timestamps</div>
+    </div>
+  </div>
+</main>
+  <script  src="./script.js"></script>
+
+</body>
+</html>
